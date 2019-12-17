@@ -31,6 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    'poll.apps.PollConfig', #poll 앱 폴더에 -> appy.py 파일에 있는 PollConfig 클래스를 의미함
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
