@@ -19,7 +19,6 @@ urlpatterns = [
     path('<int:question_id>/vote/', views.vote, name='vote'),
 ]
 
-
 # 함수형 뷰
 # urlpatterns = [
 #     #poll/views.py가 작동하도록 아래에 URL을 연결
