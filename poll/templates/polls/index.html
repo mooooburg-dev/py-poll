@@ -8,7 +8,11 @@
 {% if latest_question_list %}
     <ul>
         {% for question in latest_question_list %}
-            <li><a href="/poll/{{ question.id }}/">{{ question.question_text }}</a></li>
+<!--            <li><a href="/poll/{{ question.id }}/">{{ question.question_text }}</a></li>-->
+
+            <!-- 위의 하드코딩된 URL을 아래와 같이 바꿈. 아래는 url 템플릿 태그를 사용해 주소를 출력 -->
+            <!-- url 템플릿 태그는 URL의 이름을 필수 인자로 전달 받음. detail 이라는 이름을 가진 URL 형식을 찾아서 URL을 만들어 출력(해당 이름은 urls.py 전체를 검색하여 찾음) -->
+            <li><a href="{% url 'detail' question.id %}">{{ question.question_text }}</a></li>
         {% endfor %}
     </ul>
 {% else %}
