@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0575739e-11f2-4463-8c52-edd572ef10ef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poll/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/poll/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poll/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/poll/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,12 +66,20 @@
       <option name="project" value="LOCAL" />
       <updated>1576650851261</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="3.2.10 - 404 오류 일으키기">
+      <created>1576656584423</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576656584423</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="3.2.9 URL 연결" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.2.9 URL 연결" />
+    <MESSAGE value="3.2.10 - 404 오류 일으키기" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.2.10 - 404 오류 일으키기" />
   </component>
   <component name="WindowStateProjectService">
     <state x="4254" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576649995665">
@@ -84,14 +90,14 @@
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="2365" y="361" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.988/1680.23.1920.1057@1680.23.1920.1057" timestamp="1576596853048" />
-    <state x="4449" y="118" key="CommitChangelistDialog2" timestamp="1576650850537">
+    <state x="4449" y="118" key="CommitChangelistDialog2" timestamp="1576656583636">
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
-    <state x="4449" y="118" key="CommitChangelistDialog2/0.0.1920.1050/3840.0.1920.1050@3840.0.1920.1050" timestamp="1576650850537" />
-    <state x="4392" y="257" key="Vcs.Push.Dialog.v2" timestamp="1576650343805">
+    <state x="4449" y="118" key="CommitChangelistDialog2/0.0.1920.1050/3840.0.1920.1050@3840.0.1920.1050" timestamp="1576656583636" />
+    <state x="4392" y="257" key="Vcs.Push.Dialog.v2" timestamp="1576656587218">
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
-    <state x="4392" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/3840.0.1920.1050@3840.0.1920.1050" timestamp="1576650343805" />
+    <state x="4392" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/3840.0.1920.1050@3840.0.1920.1050" timestamp="1576656587218" />
     <state x="659" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1576648415273">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
