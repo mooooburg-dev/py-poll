@@ -7,7 +7,7 @@ from . import views
 app_name = 'poll'
 
 
-# 클래스형 뷰로 변경.
+# 클래스형 뷰로 변경한 코드
 # 아래 함수형 뷰와 다른 점은,
 # route 패턴에 들어있는 패턴이름과 view 인자
 # 패턴이름을 question_id에서 pk로 변경했음. 그리고 뷰 이름을 바꾸고 뒤에 추가 코드를 붙임.
