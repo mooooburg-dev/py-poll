@@ -2,4 +2,3 @@
 *.log
 *.bak
 venv/
-config/

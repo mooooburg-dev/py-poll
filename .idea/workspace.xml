@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="0575739e-11f2-4463-8c52-edd572ef10ef" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poll/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/poll/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poll/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/poll/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,19 @@
       <option name="presentableId" value="Default" />
       <updated>1576593970791</updated>
     </task>
+    <task id="LOCAL-00001" summary="3.2.9 URL 연결">
+      <created>1576650851261</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576650851261</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="3.2.9 URL 연결" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.2.9 URL 연결" />
   </component>
   <component name="WindowStateProjectService">
     <state x="4254" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1576649995665">
@@ -67,10 +77,10 @@
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="2365" y="361" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.988/1680.23.1920.1057@1680.23.1920.1057" timestamp="1576596853048" />
-    <state x="4449" y="118" key="CommitChangelistDialog2" timestamp="1576650012068">
+    <state x="4449" y="118" key="CommitChangelistDialog2" timestamp="1576650850537">
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
-    <state x="4449" y="118" key="CommitChangelistDialog2/0.0.1920.1050/3840.0.1920.1050@3840.0.1920.1050" timestamp="1576650012068" />
+    <state x="4449" y="118" key="CommitChangelistDialog2/0.0.1920.1050/3840.0.1920.1050@3840.0.1920.1050" timestamp="1576650850537" />
     <state x="4392" y="257" key="Vcs.Push.Dialog.v2" timestamp="1576650343805">
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
