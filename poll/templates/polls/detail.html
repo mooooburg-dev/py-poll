@@ -6,10 +6,23 @@
 </head>
 <body>
 <h1>{{ question.question_text }}</h1>
-<ul>
-    {% for choice in question.choice_set.all %}
-        <li>{{ choice.choice_text }}</li>
-    {% endfor %}
-</ul>
+
+{% if error_message %}<p><strong>{{ error_message }}</strong></p>{% endif %}
+
+<!-- [form]태그를 사용해서 사용자가 답변 항목을 선택/전달 할 수 있도록 -->
+<!-- 사용자가 선택한 항목의 번호를 vote 뷰를 전달하도록 action 속성에 vote URL이 출력되게 url 템플릿 태그를 사용 -->
+
+<form action="{% url 'poll:vote' question.id %}" method="post"> <!-- method 속성의 post는 HTTP메서드중 하나이며 서버로 정보를 전달할 때 사용 -->
+<!-- csrf_token은 CSRF 공격을 막기 위한 수단 중 하나. => 방금 서버로 들어온 요청이 사이트 내부에서 온 것이 맞는지 확인하는 용도-->
+{% csrf_token %}
+{% for choice in question.choice_set.all %}
+    <!-- forlopp.counter는 템플릿 문법에서 제공하는 기능 중 하나로 반복문의 반복 횟수를 출력.
+    여기서 선택한 답변의 번호를 vote뷰에 [choice=번호] 형태로 전달. -->
+    <input type="radio" name="choice" id="choice{{ forloop.counter }}" value="{{ choice.id }}">
+    <label for="choice{{ forloop.counter }}">{{ choice.choice_text }}</label><br>
+{% endfor %}
+<input type="submit" value="Vote">
+</form>
+
 </body>
 </html>

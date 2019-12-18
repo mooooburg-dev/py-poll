@@ -1,8 +1,9 @@
-from django.http import HttpResponse, Http404
+from django.http import HttpResponse, Http404, HttpResponseRedirect
+from django.urls import reverse
 from django.template import loader  #템플릿을 불러오기 위해 loader 임포트
 from django.shortcuts import render, get_object_or_404
 
-from .models import Question
+from .models import Question, Choice
 
 #인덱스 화면 출력
 def index(request):
@@ -39,11 +40,29 @@ def detail(request, question_id): #특별한 결과 없이 값만 출력
     # return HttpResponse("You're looking at question %s." % question_id)
 
 #투표 결과 화면 출력
-def results(request, question_id):  #특별한 결과 없이 값만 출력
-    response = "You're looking at the resules of question %s."
-    return HttpResponse(response % question_id)
+def results(request, question_id):
+    question = get_object_or_404(Question, pk=question_id)
+    return render(request, 'polls/results.html', {'question':question})
 
 #투표 기능 화면 출력
 def vote(request, question_id): #특별한 결과 없이 값만 출력
-    return HttpResponse("You're voting on quesion %s." % question_id)
+    question = get_object_or_404(Question, pk=question_id)
+
+    try:
+        # request.POST[변수이름]을 통해 전달받은 변수의 값들을 확인할 수 있음. 이떄 전달되는 값은 문자열.
+        selected_choice = question.choice_set.get(pk=request.POST['choice'])
+    except (KeyError, Choice.DoesNotExist):
+        # Redisplay the question voting form.
+        # 전달받은 답변이 해당 투표 항목에 있는지 확인하고 없다면 다시 상세페이지로 이동
+        # 이 때 답변을 선택하지 않았다는 오류 메시기 같이 전달
+        return render(request, 'polls/detail.html', {
+            'question': question,
+            'error_message' : "You didn't select a choice."
+    })
+    else:
+        # 제대로된 답변을 선택한 것이라면 해당 답변의 답변수를 1 증가 시키고 결과 화면으로 이동
+        selected_choice.vote += 1
+        selected_choice.save()
+
+        return HttpResponseRedirect(reverse('poll:result', args=(question.id)))
 
