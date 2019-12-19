@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0575739e-11f2-4463-8c52-edd572ef10ef" name="Default Changelist" comment="">
-<<<<<<< Updated upstream
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-=======
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
->>>>>>> Stashed changes
-    </list>
+    <list default="true" id="0575739e-11f2-4463-8c52-edd572ef10ef" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +17,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
   </component>
   <component name="ProjectId" id="1V7At6kyoau6dZ9ZYbXkJ2FMWr8" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -39,6 +34,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -94,11 +90,14 @@
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="2365" y="361" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.988/1680.23.1920.1057@1680.23.1920.1057" timestamp="1576596853048" />
-<<<<<<< Updated upstream
     <state x="4449" y="118" key="CommitChangelistDialog2" timestamp="1576656583636">
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
     <state x="4449" y="118" key="CommitChangelistDialog2/0.0.1920.1050/3840.0.1920.1050@3840.0.1920.1050" timestamp="1576656583636" />
+    <state x="4301" y="166" key="SettingsEditor" timestamp="1576715226463">
+      <screen x="3840" y="0" width="1920" height="1050" />
+    </state>
+    <state x="4301" y="166" key="SettingsEditor/0.0.1920.1050/3840.0.1920.1050@3840.0.1920.1050" timestamp="1576715226463" />
     <state x="4392" y="257" key="Vcs.Push.Dialog.v2" timestamp="1576656587218">
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
@@ -107,12 +106,14 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="659" y="349" key="com.intellij.ide.util.TipDialog/0.0.1920.1050/3840.0.1920.1050@0.0.1920.1050" timestamp="1576648415273" />
-=======
-    <state x="2322" y="350" key="git4idea.merge.GitPullDialog" timestamp="1576675543825">
-      <screen x="1680" y="23" width="1920" height="1057" />
+    <state x="4604" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1576715314693">
+      <screen x="3840" y="0" width="1920" height="1050" />
     </state>
-    <state x="2322" y="350" key="git4idea.merge.GitPullDialog/0.23.1680.988/1680.23.1920.1057@1680.23.1920.1057" timestamp="1576675543825" />
->>>>>>> Stashed changes
+    <state x="4604" y="441" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1050/3840.0.1920.1050@3840.0.1920.1050" timestamp="1576715314693" />
+    <state x="4508" y="315" key="git4idea.merge.GitPullDialog" timestamp="1576715299216">
+      <screen x="3840" y="0" width="1920" height="1050" />
+    </state>
+    <state x="4508" y="315" key="git4idea.merge.GitPullDialog/0.0.1920.1050/3840.0.1920.1050@3840.0.1920.1050" timestamp="1576715299216" />
     <state x="2305" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1576594832575">
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
