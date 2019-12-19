@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
+
+    {% load static %} <!-- static 파일 css 로드하기 -->
+    <link ref="stylesheet" type="text/css" href="{% static 'polls/style.css %}">
 </head>
 <body>
 {% if latest_question_list %}
