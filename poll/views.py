@@ -80,8 +80,8 @@ def vote(request, question_id): #특별한 결과 없이 값만 출력
     })
     else:
         # 제대로된 답변을 선택한 것이라면 해당 답변의 답변수를 1 증가 시키고 결과 화면으로 이동
-        selected_choice.vote += 1
+        selected_choice.votes += 1
         selected_choice.save()
 
-        return HttpResponseRedirect(reverse('poll:result', args=(question.id)))
+        return HttpResponseRedirect(reverse('poll:results', args=(question.id,)))
 

@@ -10,7 +10,7 @@
 
 <ul>
 {% for choice in question.choice_set.all %}
-    <li>{{ choice.choice_text }} -- {{ choice.votes }} vote {{choice.votes|pluraize }}</li>
+    <li>{{ choice.choice_text }} -- {{ choice.votes }} vote{{choice.votes|pluralize}}</li><!-- pluralize:복수로 만드는 필터 -->
 {% endfor %}
 </ul>
 
