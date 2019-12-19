@@ -3,10 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f6b6e7df-3d2f-4cec-84e5-5ea0f5f1ec51" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poll/templates/polls/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/poll/templates/polls/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poll/templates/polls/results.html" beforeDir="false" afterPath="$PROJECT_DIR$/poll/templates/polls/results.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/poll/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/poll/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +163,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576743731147</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="3.2.17 관리자 화면 목록 커스터마이징 중간 추가(py-poll 최종2)">
+      <created>1576745319755</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1576745319755</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -224,7 +227,8 @@
     <MESSAGE value="중간" />
     <MESSAGE value="3.2.17 관리자 화면 목록 커스터마이징 중간" />
     <MESSAGE value="3.2.17 관리자 화면 목록 커스터마이징 중간 추가(py-poll 최종)" />
-    <option name="LAST_COMMIT_MESSAGE" value="3.2.17 관리자 화면 목록 커스터마이징 중간 추가(py-poll 최종)" />
+    <MESSAGE value="3.2.17 관리자 화면 목록 커스터마이징 중간 추가(py-poll 최종2)" />
+    <option name="LAST_COMMIT_MESSAGE" value="3.2.17 관리자 화면 목록 커스터마이징 중간 추가(py-poll 최종2)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="4392" y="183" key="#Notifications" timestamp="1576715982677">
@@ -239,10 +243,10 @@
       <screen x="1680" y="23" width="1920" height="1057" />
     </state>
     <state x="2365" y="361" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.988/1680.23.1920.1057@1680.23.1920.1057" timestamp="1576596853048" />
-    <state x="4449" y="118" key="CommitChangelistDialog2" timestamp="1576743730396">
+    <state x="4449" y="118" key="CommitChangelistDialog2" timestamp="1576745319042">
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
-    <state x="4449" y="118" key="CommitChangelistDialog2/0.0.1920.1050/3840.0.1920.1050@3840.0.1920.1050" timestamp="1576743730396" />
+    <state x="4449" y="118" key="CommitChangelistDialog2/0.0.1920.1050/3840.0.1920.1050@3840.0.1920.1050" timestamp="1576745319042" />
     <state x="4631" y="437" width="361" height="175" key="Github.CreateGistDialog" timestamp="1576716622980">
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
@@ -251,10 +255,10 @@
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
     <state x="4301" y="166" key="SettingsEditor/0.0.1920.1050/3840.0.1920.1050@3840.0.1920.1050" timestamp="1576744176796" />
-    <state x="4392" y="257" key="Vcs.Push.Dialog.v2" timestamp="1576743741824">
+    <state x="4392" y="257" key="Vcs.Push.Dialog.v2" timestamp="1576745323079">
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
-    <state x="4392" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/3840.0.1920.1050@3840.0.1920.1050" timestamp="1576743741824" />
+    <state x="4392" y="257" key="Vcs.Push.Dialog.v2/0.0.1920.1050/3840.0.1920.1050@3840.0.1920.1050" timestamp="1576745323079" />
     <state x="659" y="349" key="com.intellij.ide.util.TipDialog" timestamp="1576648415273">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
