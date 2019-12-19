@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f6b6e7df-3d2f-4cec-84e5-5ea0f5f1ec51" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poll/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/poll/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/poll/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/poll/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +49,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -219,10 +221,10 @@
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
     <state x="4631" y="437" width="361" height="175" key="Github.CreateGistDialog/0.0.1920.1050/3840.0.1920.1050@3840.0.1920.1050" timestamp="1576716622980" />
-    <state x="4301" y="166" key="SettingsEditor" timestamp="1576737234005">
+    <state x="4301" y="166" key="SettingsEditor" timestamp="1576737973472">
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
-    <state x="4301" y="166" key="SettingsEditor/0.0.1920.1050/3840.0.1920.1050@3840.0.1920.1050" timestamp="1576737234005" />
+    <state x="4301" y="166" key="SettingsEditor/0.0.1920.1050/3840.0.1920.1050@3840.0.1920.1050" timestamp="1576737973472" />
     <state x="4392" y="257" key="Vcs.Push.Dialog.v2" timestamp="1576737155845">
       <screen x="3840" y="0" width="1920" height="1050" />
     </state>
